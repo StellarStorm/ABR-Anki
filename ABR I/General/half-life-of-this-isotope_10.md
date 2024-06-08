@@ -43,4 +43,4 @@ Recall that half-life is the time it takes for 1/2 the samples initially present
 <img src="958cf507c3a640deb1cce8927ae19327-ao-11-A.svg">
 
 ## Original Mask
-<img src="958cf507c3a640deb1cce8927ae19327-ao-O.svg" />
+<img src="958cf507c3a640deb1cce8927ae19327-ao-O.svg">
