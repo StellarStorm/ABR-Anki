@@ -50,4 +50,4 @@ Describe this component of the Klystron
 <img src="c07b0d66cbe84414823db9703ffba786-ao-8-A.svg" />
 
 ## Original Mask
-<img src="c07b0d66cbe84414823db9703ffba786-ao-O.svg" />
+<img src="c07b0d66cbe84414823db9703ffba786-ao-O.svg">
