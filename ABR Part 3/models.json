@@ -1,0 +1,294 @@
+{
+    "1487096632340": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}",
+        "did": 1494955811605,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Text",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Extra",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1487096632340,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1715100439,
+        "name": "Cloze+",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "Equipment"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{cloze:Text}}<br>\n{{Extra}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Cloze",
+                "ord": 0,
+                "qfmt": "{{cloze:Text}}"
+            }
+        ],
+        "type": 1,
+        "usn": 0,
+        "vers": []
+    },
+    "1487096632372": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1555966429337,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Front",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Back",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1487096632372,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1715100439,
+        "name": "Basic (and reversed card)+",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ],
+            [
+                1,
+                "any",
+                [
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "Book",
+            "Mormon",
+            "of"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 2",
+                "ord": 1,
+                "qfmt": "{{Back}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1487096632387": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1555966429337,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Front",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Back",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1487096632387,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1715100439,
+        "name": "Basic+",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "Book",
+            "Mormon",
+            "of"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1489190921505": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1487096677209,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Document",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Title",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Details",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1489190921505,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1491524060,
+        "name": "Documents",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ],
+            [
+                1,
+                "any",
+                [
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Title}} <br><br>\nDetails: {{Details}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Document}} title:"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Document}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 2",
+                "ord": 1,
+                "qfmt": "{{Title}} document name/#:"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    }
+}

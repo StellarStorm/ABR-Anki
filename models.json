@@ -1,0 +1,1231 @@
+{
+    "280831013": {
+        "css": "/* override centered text which messes up code blocks*/\n.card {\n  text-align: left;\n}\n\n/* fix text color of codeblocks */\n.codehilite {\n  color: #000000;\n}\n\npre { line-height: 125%; }\ntd.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\nspan.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\ntd.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\nspan.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\n.codehilite .hll { background-color: #ffffcc }\n.codehilite { background: #f8f8f8; }\n.codehilite .c { color: #408080; font-style: italic } /* Comment */\n.codehilite .err { border: 1px solid #FF0000 } /* Error */\n.codehilite .k { color: #008000; font-weight: bold } /* Keyword */\n.codehilite .o { color: #666666 } /* Operator */\n.codehilite .ch { color: #408080; font-style: italic } /* Comment.Hashbang */\n.codehilite .cm { color: #408080; font-style: italic } /* Comment.Multiline */\n.codehilite .cp { color: #BC7A00 } /* Comment.Preproc */\n.codehilite .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */\n.codehilite .c1 { color: #408080; font-style: italic } /* Comment.Single */\n.codehilite .cs { color: #408080; font-style: italic } /* Comment.Special */\n.codehilite .gd { color: #A00000 } /* Generic.Deleted */\n.codehilite .ge { font-style: italic } /* Generic.Emph */\n.codehilite .gr { color: #FF0000 } /* Generic.Error */\n.codehilite .gh { color: #000080; font-weight: bold } /* Generic.Heading */\n.codehilite .gi { color: #00A000 } /* Generic.Inserted */\n.codehilite .go { color: #888888 } /* Generic.Output */\n.codehilite .gp { color: #000080; font-weight: bold } /* Generic.Prompt */\n.codehilite .gs { font-weight: bold } /* Generic.Strong */\n.codehilite .gu { color: #800080; font-weight: bold } /* Generic.Subheading */\n.codehilite .gt { color: #0044DD } /* Generic.Traceback */\n.codehilite .kc { color: #008000; font-weight: bold } /* Keyword.Constant */\n.codehilite .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */\n.codehilite .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */\n.codehilite .kp { color: #008000 } /* Keyword.Pseudo */\n.codehilite .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */\n.codehilite .kt { color: #B00040 } /* Keyword.Type */\n.codehilite .m { color: #666666 } /* Literal.Number */\n.codehilite .s { color: #BA2121 } /* Literal.String */\n.codehilite .na { color: #7D9029 } /* Name.Attribute */\n.codehilite .nb { color: #008000 } /* Name.Builtin */\n.codehilite .nc { color: #0000FF; font-weight: bold } /* Name.Class */\n.codehilite .no { color: #880000 } /* Name.Constant */\n.codehilite .nd { color: #AA22FF } /* Name.Decorator */\n.codehilite .ni { color: #999999; font-weight: bold } /* Name.Entity */\n.codehilite .ne { color: #D2413A; font-weight: bold } /* Name.Exception */\n.codehilite .nf { color: #0000FF } /* Name.Function */\n.codehilite .nl { color: #A0A000 } /* Name.Label */\n.codehilite .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */\n.codehilite .nt { color: #008000; font-weight: bold } /* Name.Tag */\n.codehilite .nv { color: #19177C } /* Name.Variable */\n.codehilite .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */\n.codehilite .w { color: #bbbbbb } /* Text.Whitespace */\n.codehilite .mb { color: #666666 } /* Literal.Number.Bin */\n.codehilite .mf { color: #666666 } /* Literal.Number.Float */\n.codehilite .mh { color: #666666 } /* Literal.Number.Hex */\n.codehilite .mi { color: #666666 } /* Literal.Number.Integer */\n.codehilite .mo { color: #666666 } /* Literal.Number.Oct */\n.codehilite .sa { color: #BA2121 } /* Literal.String.Affix */\n.codehilite .sb { color: #BA2121 } /* Literal.String.Backtick */\n.codehilite .sc { color: #BA2121 } /* Literal.String.Char */\n.codehilite .dl { color: #BA2121 } /* Literal.String.Delimiter */\n.codehilite .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */\n.codehilite .s2 { color: #BA2121 } /* Literal.String.Double */\n.codehilite .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */\n.codehilite .sh { color: #BA2121 } /* Literal.String.Heredoc */\n.codehilite .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */\n.codehilite .sx { color: #008000 } /* Literal.String.Other */\n.codehilite .sr { color: #BB6688 } /* Literal.String.Regex */\n.codehilite .s1 { color: #BA2121 } /* Literal.String.Single */\n.codehilite .ss { color: #19177C } /* Literal.String.Symbol */\n.codehilite .bp { color: #008000 } /* Name.Builtin.Pseudo */\n.codehilite .fm { color: #0000FF } /* Name.Function.Magic */\n.codehilite .vc { color: #19177C } /* Name.Variable.Class */\n.codehilite .vg { color: #19177C } /* Name.Variable.Global */\n.codehilite .vi { color: #19177C } /* Name.Variable.Instance */\n.codehilite .vm { color: #19177C } /* Name.Variable.Magic */\n.codehilite .il { color: #666666 } /* Literal.Number.Integer.Long */\n\npre { line-height: 125%; }\ntd.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\nspan.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\ntd.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\nspan.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\n.nightMode .codehilite .hll { background-color: #49483e }\n.nightMode .codehilite { background: #272822; color: #f8f8f2 }\n.nightMode .codehilite .c { color: #75715e } /* Comment */\n.nightMode .codehilite .err { color: #960050; background-color: #1e0010 } /* Error */\n.nightMode .codehilite .k { color: #66d9ef } /* Keyword */\n.nightMode .codehilite .l { color: #ae81ff } /* Literal */\n.nightMode .codehilite .n { color: #f8f8f2 } /* Name */\n.nightMode .codehilite .o { color: #f92672 } /* Operator */\n.nightMode .codehilite .p { color: #f8f8f2 } /* Punctuation */\n.nightMode .codehilite .ch { color: #75715e } /* Comment.Hashbang */\n.nightMode .codehilite .cm { color: #75715e } /* Comment.Multiline */\n.nightMode .codehilite .cp { color: #75715e } /* Comment.Preproc */\n.nightMode .codehilite .cpf { color: #75715e } /* Comment.PreprocFile */\n.nightMode .codehilite .c1 { color: #75715e } /* Comment.Single */\n.nightMode .codehilite .cs { color: #75715e } /* Comment.Special */\n.nightMode .codehilite .gd { color: #f92672 } /* Generic.Deleted */\n.nightMode .codehilite .ge { font-style: italic } /* Generic.Emph */\n.nightMode .codehilite .gi { color: #a6e22e } /* Generic.Inserted */\n.nightMode .codehilite .go { color: #66d9ef } /* Generic.Output */\n.nightMode .codehilite .gp { color: #f92672; font-weight: bold } /* Generic.Prompt */\n.nightMode .codehilite .gs { font-weight: bold } /* Generic.Strong */\n.nightMode .codehilite .gu { color: #75715e } /* Generic.Subheading */\n.nightMode .codehilite .kc { color: #66d9ef } /* Keyword.Constant */\n.nightMode .codehilite .kd { color: #66d9ef } /* Keyword.Declaration */\n.nightMode .codehilite .kn { color: #f92672 } /* Keyword.Namespace */\n.nightMode .codehilite .kp { color: #66d9ef } /* Keyword.Pseudo */\n.nightMode .codehilite .kr { color: #66d9ef } /* Keyword.Reserved */\n.nightMode .codehilite .kt { color: #66d9ef } /* Keyword.Type */\n.nightMode .codehilite .ld { color: #e6db74 } /* Literal.Date */\n.nightMode .codehilite .m { color: #ae81ff } /* Literal.Number */\n.nightMode .codehilite .s { color: #e6db74 } /* Literal.String */\n.nightMode .codehilite .na { color: #a6e22e } /* Name.Attribute */\n.nightMode .codehilite .nb { color: #f8f8f2 } /* Name.Builtin */\n.nightMode .codehilite .nc { color: #a6e22e } /* Name.Class */\n.nightMode .codehilite .no { color: #66d9ef } /* Name.Constant */\n.nightMode .codehilite .nd { color: #a6e22e } /* Name.Decorator */\n.nightMode .codehilite .ni { color: #f8f8f2 } /* Name.Entity */\n.nightMode .codehilite .ne { color: #a6e22e } /* Name.Exception */\n.nightMode .codehilite .nf { color: #a6e22e } /* Name.Function */\n.nightMode .codehilite .nl { color: #f8f8f2 } /* Name.Label */\n.nightMode .codehilite .nn { color: #f8f8f2 } /* Name.Namespace */\n.nightMode .codehilite .nx { color: #a6e22e } /* Name.Other */\n.nightMode .codehilite .py { color: #f8f8f2 } /* Name.Property */\n.nightMode .codehilite .nt { color: #f92672 } /* Name.Tag */\n.nightMode .codehilite .nv { color: #f8f8f2 } /* Name.Variable */\n.nightMode .codehilite .ow { color: #f92672 } /* Operator.Word */\n.nightMode .codehilite .w { color: #f8f8f2 } /* Text.Whitespace */\n.nightMode .codehilite .mb { color: #ae81ff } /* Literal.Number.Bin */\n.nightMode .codehilite .mf { color: #ae81ff } /* Literal.Number.Float */\n.nightMode .codehilite .mh { color: #ae81ff } /* Literal.Number.Hex */\n.nightMode .codehilite .mi { color: #ae81ff } /* Literal.Number.Integer */\n.nightMode .codehilite .mo { color: #ae81ff } /* Literal.Number.Oct */\n.nightMode .codehilite .sa { color: #e6db74 } /* Literal.String.Affix */\n.nightMode .codehilite .sb { color: #e6db74 } /* Literal.String.Backtick */\n.nightMode .codehilite .sc { color: #e6db74 } /* Literal.String.Char */\n.nightMode .codehilite .dl { color: #e6db74 } /* Literal.String.Delimiter */\n.nightMode .codehilite .sd { color: #e6db74 } /* Literal.String.Doc */\n.nightMode .codehilite .s2 { color: #e6db74 } /* Literal.String.Double */\n.nightMode .codehilite .se { color: #ae81ff } /* Literal.String.Escape */\n.nightMode .codehilite .sh { color: #e6db74 } /* Literal.String.Heredoc */\n.nightMode .codehilite .si { color: #e6db74 } /* Literal.String.Interpol */\n.nightMode .codehilite .sx { color: #e6db74 } /* Literal.String.Other */\n.nightMode .codehilite .sr { color: #e6db74 } /* Literal.String.Regex */\n.nightMode .codehilite .s1 { color: #e6db74 } /* Literal.String.Single */\n.nightMode .codehilite .ss { color: #e6db74 } /* Literal.String.Symbol */\n.nightMode .codehilite .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */\n.nightMode .codehilite .fm { color: #a6e22e } /* Name.Function.Magic */\n.nightMode .codehilite .vc { color: #f8f8f2 } /* Name.Variable.Class */\n.nightMode .codehilite .vg { color: #f8f8f2 } /* Name.Variable.Global */\n.nightMode .codehilite .vi { color: #f8f8f2 } /* Name.Variable.Instance */\n.nightMode .codehilite .vm { color: #f8f8f2 } /* Name.Variable.Magic */\n.nightMode .codehilite .il { color: #ae81ff } /* Literal.Number.Integer.Long */\n\n\n",
+        "did": 1590296552,
+        "flds": [
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Question",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Answer",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Guid",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 280831013,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1716487895,
+        "name": "TG51 model",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "<div class=\"card\"><div class=\"question\">{{Question}}</div><hr><div class=\"answer\">{{Answer}}</div></div>",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "<div class=\"card\"><div class=\"question\">{{Question}}</div></div>"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "385444490": {
+        "css": "/* override centered text which messes up code blocks*/\n.card {\n  text-align: left;\n}\n\n/* fix text color of codeblocks */\n.codehilite {\n  color: #000000;\n}\n\npre { line-height: 125%; }\ntd.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\nspan.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\ntd.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\nspan.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\n.codehilite .hll { background-color: #ffffcc }\n.codehilite { background: #f8f8f8; }\n.codehilite .c { color: #408080; font-style: italic } /* Comment */\n.codehilite .err { border: 1px solid #FF0000 } /* Error */\n.codehilite .k { color: #008000; font-weight: bold } /* Keyword */\n.codehilite .o { color: #666666 } /* Operator */\n.codehilite .ch { color: #408080; font-style: italic } /* Comment.Hashbang */\n.codehilite .cm { color: #408080; font-style: italic } /* Comment.Multiline */\n.codehilite .cp { color: #BC7A00 } /* Comment.Preproc */\n.codehilite .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */\n.codehilite .c1 { color: #408080; font-style: italic } /* Comment.Single */\n.codehilite .cs { color: #408080; font-style: italic } /* Comment.Special */\n.codehilite .gd { color: #A00000 } /* Generic.Deleted */\n.codehilite .ge { font-style: italic } /* Generic.Emph */\n.codehilite .gr { color: #FF0000 } /* Generic.Error */\n.codehilite .gh { color: #000080; font-weight: bold } /* Generic.Heading */\n.codehilite .gi { color: #00A000 } /* Generic.Inserted */\n.codehilite .go { color: #888888 } /* Generic.Output */\n.codehilite .gp { color: #000080; font-weight: bold } /* Generic.Prompt */\n.codehilite .gs { font-weight: bold } /* Generic.Strong */\n.codehilite .gu { color: #800080; font-weight: bold } /* Generic.Subheading */\n.codehilite .gt { color: #0044DD } /* Generic.Traceback */\n.codehilite .kc { color: #008000; font-weight: bold } /* Keyword.Constant */\n.codehilite .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */\n.codehilite .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */\n.codehilite .kp { color: #008000 } /* Keyword.Pseudo */\n.codehilite .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */\n.codehilite .kt { color: #B00040 } /* Keyword.Type */\n.codehilite .m { color: #666666 } /* Literal.Number */\n.codehilite .s { color: #BA2121 } /* Literal.String */\n.codehilite .na { color: #7D9029 } /* Name.Attribute */\n.codehilite .nb { color: #008000 } /* Name.Builtin */\n.codehilite .nc { color: #0000FF; font-weight: bold } /* Name.Class */\n.codehilite .no { color: #880000 } /* Name.Constant */\n.codehilite .nd { color: #AA22FF } /* Name.Decorator */\n.codehilite .ni { color: #999999; font-weight: bold } /* Name.Entity */\n.codehilite .ne { color: #D2413A; font-weight: bold } /* Name.Exception */\n.codehilite .nf { color: #0000FF } /* Name.Function */\n.codehilite .nl { color: #A0A000 } /* Name.Label */\n.codehilite .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */\n.codehilite .nt { color: #008000; font-weight: bold } /* Name.Tag */\n.codehilite .nv { color: #19177C } /* Name.Variable */\n.codehilite .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */\n.codehilite .w { color: #bbbbbb } /* Text.Whitespace */\n.codehilite .mb { color: #666666 } /* Literal.Number.Bin */\n.codehilite .mf { color: #666666 } /* Literal.Number.Float */\n.codehilite .mh { color: #666666 } /* Literal.Number.Hex */\n.codehilite .mi { color: #666666 } /* Literal.Number.Integer */\n.codehilite .mo { color: #666666 } /* Literal.Number.Oct */\n.codehilite .sa { color: #BA2121 } /* Literal.String.Affix */\n.codehilite .sb { color: #BA2121 } /* Literal.String.Backtick */\n.codehilite .sc { color: #BA2121 } /* Literal.String.Char */\n.codehilite .dl { color: #BA2121 } /* Literal.String.Delimiter */\n.codehilite .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */\n.codehilite .s2 { color: #BA2121 } /* Literal.String.Double */\n.codehilite .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */\n.codehilite .sh { color: #BA2121 } /* Literal.String.Heredoc */\n.codehilite .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */\n.codehilite .sx { color: #008000 } /* Literal.String.Other */\n.codehilite .sr { color: #BB6688 } /* Literal.String.Regex */\n.codehilite .s1 { color: #BA2121 } /* Literal.String.Single */\n.codehilite .ss { color: #19177C } /* Literal.String.Symbol */\n.codehilite .bp { color: #008000 } /* Name.Builtin.Pseudo */\n.codehilite .fm { color: #0000FF } /* Name.Function.Magic */\n.codehilite .vc { color: #19177C } /* Name.Variable.Class */\n.codehilite .vg { color: #19177C } /* Name.Variable.Global */\n.codehilite .vi { color: #19177C } /* Name.Variable.Instance */\n.codehilite .vm { color: #19177C } /* Name.Variable.Magic */\n.codehilite .il { color: #666666 } /* Literal.Number.Integer.Long */\n\npre { line-height: 125%; }\ntd.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\nspan.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\ntd.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\nspan.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\n.nightMode .codehilite .hll { background-color: #49483e }\n.nightMode .codehilite { background: #272822; color: #f8f8f2 }\n.nightMode .codehilite .c { color: #75715e } /* Comment */\n.nightMode .codehilite .err { color: #960050; background-color: #1e0010 } /* Error */\n.nightMode .codehilite .k { color: #66d9ef } /* Keyword */\n.nightMode .codehilite .l { color: #ae81ff } /* Literal */\n.nightMode .codehilite .n { color: #f8f8f2 } /* Name */\n.nightMode .codehilite .o { color: #f92672 } /* Operator */\n.nightMode .codehilite .p { color: #f8f8f2 } /* Punctuation */\n.nightMode .codehilite .ch { color: #75715e } /* Comment.Hashbang */\n.nightMode .codehilite .cm { color: #75715e } /* Comment.Multiline */\n.nightMode .codehilite .cp { color: #75715e } /* Comment.Preproc */\n.nightMode .codehilite .cpf { color: #75715e } /* Comment.PreprocFile */\n.nightMode .codehilite .c1 { color: #75715e } /* Comment.Single */\n.nightMode .codehilite .cs { color: #75715e } /* Comment.Special */\n.nightMode .codehilite .gd { color: #f92672 } /* Generic.Deleted */\n.nightMode .codehilite .ge { font-style: italic } /* Generic.Emph */\n.nightMode .codehilite .gi { color: #a6e22e } /* Generic.Inserted */\n.nightMode .codehilite .go { color: #66d9ef } /* Generic.Output */\n.nightMode .codehilite .gp { color: #f92672; font-weight: bold } /* Generic.Prompt */\n.nightMode .codehilite .gs { font-weight: bold } /* Generic.Strong */\n.nightMode .codehilite .gu { color: #75715e } /* Generic.Subheading */\n.nightMode .codehilite .kc { color: #66d9ef } /* Keyword.Constant */\n.nightMode .codehilite .kd { color: #66d9ef } /* Keyword.Declaration */\n.nightMode .codehilite .kn { color: #f92672 } /* Keyword.Namespace */\n.nightMode .codehilite .kp { color: #66d9ef } /* Keyword.Pseudo */\n.nightMode .codehilite .kr { color: #66d9ef } /* Keyword.Reserved */\n.nightMode .codehilite .kt { color: #66d9ef } /* Keyword.Type */\n.nightMode .codehilite .ld { color: #e6db74 } /* Literal.Date */\n.nightMode .codehilite .m { color: #ae81ff } /* Literal.Number */\n.nightMode .codehilite .s { color: #e6db74 } /* Literal.String */\n.nightMode .codehilite .na { color: #a6e22e } /* Name.Attribute */\n.nightMode .codehilite .nb { color: #f8f8f2 } /* Name.Builtin */\n.nightMode .codehilite .nc { color: #a6e22e } /* Name.Class */\n.nightMode .codehilite .no { color: #66d9ef } /* Name.Constant */\n.nightMode .codehilite .nd { color: #a6e22e } /* Name.Decorator */\n.nightMode .codehilite .ni { color: #f8f8f2 } /* Name.Entity */\n.nightMode .codehilite .ne { color: #a6e22e } /* Name.Exception */\n.nightMode .codehilite .nf { color: #a6e22e } /* Name.Function */\n.nightMode .codehilite .nl { color: #f8f8f2 } /* Name.Label */\n.nightMode .codehilite .nn { color: #f8f8f2 } /* Name.Namespace */\n.nightMode .codehilite .nx { color: #a6e22e } /* Name.Other */\n.nightMode .codehilite .py { color: #f8f8f2 } /* Name.Property */\n.nightMode .codehilite .nt { color: #f92672 } /* Name.Tag */\n.nightMode .codehilite .nv { color: #f8f8f2 } /* Name.Variable */\n.nightMode .codehilite .ow { color: #f92672 } /* Operator.Word */\n.nightMode .codehilite .w { color: #f8f8f2 } /* Text.Whitespace */\n.nightMode .codehilite .mb { color: #ae81ff } /* Literal.Number.Bin */\n.nightMode .codehilite .mf { color: #ae81ff } /* Literal.Number.Float */\n.nightMode .codehilite .mh { color: #ae81ff } /* Literal.Number.Hex */\n.nightMode .codehilite .mi { color: #ae81ff } /* Literal.Number.Integer */\n.nightMode .codehilite .mo { color: #ae81ff } /* Literal.Number.Oct */\n.nightMode .codehilite .sa { color: #e6db74 } /* Literal.String.Affix */\n.nightMode .codehilite .sb { color: #e6db74 } /* Literal.String.Backtick */\n.nightMode .codehilite .sc { color: #e6db74 } /* Literal.String.Char */\n.nightMode .codehilite .dl { color: #e6db74 } /* Literal.String.Delimiter */\n.nightMode .codehilite .sd { color: #e6db74 } /* Literal.String.Doc */\n.nightMode .codehilite .s2 { color: #e6db74 } /* Literal.String.Double */\n.nightMode .codehilite .se { color: #ae81ff } /* Literal.String.Escape */\n.nightMode .codehilite .sh { color: #e6db74 } /* Literal.String.Heredoc */\n.nightMode .codehilite .si { color: #e6db74 } /* Literal.String.Interpol */\n.nightMode .codehilite .sx { color: #e6db74 } /* Literal.String.Other */\n.nightMode .codehilite .sr { color: #e6db74 } /* Literal.String.Regex */\n.nightMode .codehilite .s1 { color: #e6db74 } /* Literal.String.Single */\n.nightMode .codehilite .ss { color: #e6db74 } /* Literal.String.Symbol */\n.nightMode .codehilite .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */\n.nightMode .codehilite .fm { color: #a6e22e } /* Name.Function.Magic */\n.nightMode .codehilite .vc { color: #f8f8f2 } /* Name.Variable.Class */\n.nightMode .codehilite .vg { color: #f8f8f2 } /* Name.Variable.Global */\n.nightMode .codehilite .vi { color: #f8f8f2 } /* Name.Variable.Instance */\n.nightMode .codehilite .vm { color: #f8f8f2 } /* Name.Variable.Magic */\n.nightMode .codehilite .il { color: #ae81ff } /* Literal.Number.Integer.Long */\n\n\n",
+        "did": 2102028306,
+        "flds": [
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Question",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Answer",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Guid",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 385444490,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1716487895,
+        "name": "StuCo/Self Review model",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "<div class=\"card\"><div class=\"question\">{{Question}}</div><hr><div class=\"answer\">{{Answer}}</div></div>",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "<div class=\"card\"><div class=\"question\">{{Question}}</div></div>"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "793009412": {
+        "css": "/* override centered text which messes up code blocks*/\n.card {\n  text-align: left;\n}\n\n/* fix text color of codeblocks */\n.codehilite {\n  color: #000000;\n}\n\npre { line-height: 125%; }\ntd.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\nspan.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\ntd.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\nspan.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\n.codehilite .hll { background-color: #ffffcc }\n.codehilite { background: #f8f8f8; }\n.codehilite .c { color: #408080; font-style: italic } /* Comment */\n.codehilite .err { border: 1px solid #FF0000 } /* Error */\n.codehilite .k { color: #008000; font-weight: bold } /* Keyword */\n.codehilite .o { color: #666666 } /* Operator */\n.codehilite .ch { color: #408080; font-style: italic } /* Comment.Hashbang */\n.codehilite .cm { color: #408080; font-style: italic } /* Comment.Multiline */\n.codehilite .cp { color: #BC7A00 } /* Comment.Preproc */\n.codehilite .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */\n.codehilite .c1 { color: #408080; font-style: italic } /* Comment.Single */\n.codehilite .cs { color: #408080; font-style: italic } /* Comment.Special */\n.codehilite .gd { color: #A00000 } /* Generic.Deleted */\n.codehilite .ge { font-style: italic } /* Generic.Emph */\n.codehilite .gr { color: #FF0000 } /* Generic.Error */\n.codehilite .gh { color: #000080; font-weight: bold } /* Generic.Heading */\n.codehilite .gi { color: #00A000 } /* Generic.Inserted */\n.codehilite .go { color: #888888 } /* Generic.Output */\n.codehilite .gp { color: #000080; font-weight: bold } /* Generic.Prompt */\n.codehilite .gs { font-weight: bold } /* Generic.Strong */\n.codehilite .gu { color: #800080; font-weight: bold } /* Generic.Subheading */\n.codehilite .gt { color: #0044DD } /* Generic.Traceback */\n.codehilite .kc { color: #008000; font-weight: bold } /* Keyword.Constant */\n.codehilite .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */\n.codehilite .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */\n.codehilite .kp { color: #008000 } /* Keyword.Pseudo */\n.codehilite .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */\n.codehilite .kt { color: #B00040 } /* Keyword.Type */\n.codehilite .m { color: #666666 } /* Literal.Number */\n.codehilite .s { color: #BA2121 } /* Literal.String */\n.codehilite .na { color: #7D9029 } /* Name.Attribute */\n.codehilite .nb { color: #008000 } /* Name.Builtin */\n.codehilite .nc { color: #0000FF; font-weight: bold } /* Name.Class */\n.codehilite .no { color: #880000 } /* Name.Constant */\n.codehilite .nd { color: #AA22FF } /* Name.Decorator */\n.codehilite .ni { color: #999999; font-weight: bold } /* Name.Entity */\n.codehilite .ne { color: #D2413A; font-weight: bold } /* Name.Exception */\n.codehilite .nf { color: #0000FF } /* Name.Function */\n.codehilite .nl { color: #A0A000 } /* Name.Label */\n.codehilite .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */\n.codehilite .nt { color: #008000; font-weight: bold } /* Name.Tag */\n.codehilite .nv { color: #19177C } /* Name.Variable */\n.codehilite .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */\n.codehilite .w { color: #bbbbbb } /* Text.Whitespace */\n.codehilite .mb { color: #666666 } /* Literal.Number.Bin */\n.codehilite .mf { color: #666666 } /* Literal.Number.Float */\n.codehilite .mh { color: #666666 } /* Literal.Number.Hex */\n.codehilite .mi { color: #666666 } /* Literal.Number.Integer */\n.codehilite .mo { color: #666666 } /* Literal.Number.Oct */\n.codehilite .sa { color: #BA2121 } /* Literal.String.Affix */\n.codehilite .sb { color: #BA2121 } /* Literal.String.Backtick */\n.codehilite .sc { color: #BA2121 } /* Literal.String.Char */\n.codehilite .dl { color: #BA2121 } /* Literal.String.Delimiter */\n.codehilite .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */\n.codehilite .s2 { color: #BA2121 } /* Literal.String.Double */\n.codehilite .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */\n.codehilite .sh { color: #BA2121 } /* Literal.String.Heredoc */\n.codehilite .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */\n.codehilite .sx { color: #008000 } /* Literal.String.Other */\n.codehilite .sr { color: #BB6688 } /* Literal.String.Regex */\n.codehilite .s1 { color: #BA2121 } /* Literal.String.Single */\n.codehilite .ss { color: #19177C } /* Literal.String.Symbol */\n.codehilite .bp { color: #008000 } /* Name.Builtin.Pseudo */\n.codehilite .fm { color: #0000FF } /* Name.Function.Magic */\n.codehilite .vc { color: #19177C } /* Name.Variable.Class */\n.codehilite .vg { color: #19177C } /* Name.Variable.Global */\n.codehilite .vi { color: #19177C } /* Name.Variable.Instance */\n.codehilite .vm { color: #19177C } /* Name.Variable.Magic */\n.codehilite .il { color: #666666 } /* Literal.Number.Integer.Long */\n\npre { line-height: 125%; }\ntd.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\nspan.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\ntd.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\nspan.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\n.nightMode .codehilite .hll { background-color: #49483e }\n.nightMode .codehilite { background: #272822; color: #f8f8f2 }\n.nightMode .codehilite .c { color: #75715e } /* Comment */\n.nightMode .codehilite .err { color: #960050; background-color: #1e0010 } /* Error */\n.nightMode .codehilite .k { color: #66d9ef } /* Keyword */\n.nightMode .codehilite .l { color: #ae81ff } /* Literal */\n.nightMode .codehilite .n { color: #f8f8f2 } /* Name */\n.nightMode .codehilite .o { color: #f92672 } /* Operator */\n.nightMode .codehilite .p { color: #f8f8f2 } /* Punctuation */\n.nightMode .codehilite .ch { color: #75715e } /* Comment.Hashbang */\n.nightMode .codehilite .cm { color: #75715e } /* Comment.Multiline */\n.nightMode .codehilite .cp { color: #75715e } /* Comment.Preproc */\n.nightMode .codehilite .cpf { color: #75715e } /* Comment.PreprocFile */\n.nightMode .codehilite .c1 { color: #75715e } /* Comment.Single */\n.nightMode .codehilite .cs { color: #75715e } /* Comment.Special */\n.nightMode .codehilite .gd { color: #f92672 } /* Generic.Deleted */\n.nightMode .codehilite .ge { font-style: italic } /* Generic.Emph */\n.nightMode .codehilite .gi { color: #a6e22e } /* Generic.Inserted */\n.nightMode .codehilite .go { color: #66d9ef } /* Generic.Output */\n.nightMode .codehilite .gp { color: #f92672; font-weight: bold } /* Generic.Prompt */\n.nightMode .codehilite .gs { font-weight: bold } /* Generic.Strong */\n.nightMode .codehilite .gu { color: #75715e } /* Generic.Subheading */\n.nightMode .codehilite .kc { color: #66d9ef } /* Keyword.Constant */\n.nightMode .codehilite .kd { color: #66d9ef } /* Keyword.Declaration */\n.nightMode .codehilite .kn { color: #f92672 } /* Keyword.Namespace */\n.nightMode .codehilite .kp { color: #66d9ef } /* Keyword.Pseudo */\n.nightMode .codehilite .kr { color: #66d9ef } /* Keyword.Reserved */\n.nightMode .codehilite .kt { color: #66d9ef } /* Keyword.Type */\n.nightMode .codehilite .ld { color: #e6db74 } /* Literal.Date */\n.nightMode .codehilite .m { color: #ae81ff } /* Literal.Number */\n.nightMode .codehilite .s { color: #e6db74 } /* Literal.String */\n.nightMode .codehilite .na { color: #a6e22e } /* Name.Attribute */\n.nightMode .codehilite .nb { color: #f8f8f2 } /* Name.Builtin */\n.nightMode .codehilite .nc { color: #a6e22e } /* Name.Class */\n.nightMode .codehilite .no { color: #66d9ef } /* Name.Constant */\n.nightMode .codehilite .nd { color: #a6e22e } /* Name.Decorator */\n.nightMode .codehilite .ni { color: #f8f8f2 } /* Name.Entity */\n.nightMode .codehilite .ne { color: #a6e22e } /* Name.Exception */\n.nightMode .codehilite .nf { color: #a6e22e } /* Name.Function */\n.nightMode .codehilite .nl { color: #f8f8f2 } /* Name.Label */\n.nightMode .codehilite .nn { color: #f8f8f2 } /* Name.Namespace */\n.nightMode .codehilite .nx { color: #a6e22e } /* Name.Other */\n.nightMode .codehilite .py { color: #f8f8f2 } /* Name.Property */\n.nightMode .codehilite .nt { color: #f92672 } /* Name.Tag */\n.nightMode .codehilite .nv { color: #f8f8f2 } /* Name.Variable */\n.nightMode .codehilite .ow { color: #f92672 } /* Operator.Word */\n.nightMode .codehilite .w { color: #f8f8f2 } /* Text.Whitespace */\n.nightMode .codehilite .mb { color: #ae81ff } /* Literal.Number.Bin */\n.nightMode .codehilite .mf { color: #ae81ff } /* Literal.Number.Float */\n.nightMode .codehilite .mh { color: #ae81ff } /* Literal.Number.Hex */\n.nightMode .codehilite .mi { color: #ae81ff } /* Literal.Number.Integer */\n.nightMode .codehilite .mo { color: #ae81ff } /* Literal.Number.Oct */\n.nightMode .codehilite .sa { color: #e6db74 } /* Literal.String.Affix */\n.nightMode .codehilite .sb { color: #e6db74 } /* Literal.String.Backtick */\n.nightMode .codehilite .sc { color: #e6db74 } /* Literal.String.Char */\n.nightMode .codehilite .dl { color: #e6db74 } /* Literal.String.Delimiter */\n.nightMode .codehilite .sd { color: #e6db74 } /* Literal.String.Doc */\n.nightMode .codehilite .s2 { color: #e6db74 } /* Literal.String.Double */\n.nightMode .codehilite .se { color: #ae81ff } /* Literal.String.Escape */\n.nightMode .codehilite .sh { color: #e6db74 } /* Literal.String.Heredoc */\n.nightMode .codehilite .si { color: #e6db74 } /* Literal.String.Interpol */\n.nightMode .codehilite .sx { color: #e6db74 } /* Literal.String.Other */\n.nightMode .codehilite .sr { color: #e6db74 } /* Literal.String.Regex */\n.nightMode .codehilite .s1 { color: #e6db74 } /* Literal.String.Single */\n.nightMode .codehilite .ss { color: #e6db74 } /* Literal.String.Symbol */\n.nightMode .codehilite .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */\n.nightMode .codehilite .fm { color: #a6e22e } /* Name.Function.Magic */\n.nightMode .codehilite .vc { color: #f8f8f2 } /* Name.Variable.Class */\n.nightMode .codehilite .vg { color: #f8f8f2 } /* Name.Variable.Global */\n.nightMode .codehilite .vi { color: #f8f8f2 } /* Name.Variable.Instance */\n.nightMode .codehilite .vm { color: #f8f8f2 } /* Name.Variable.Magic */\n.nightMode .codehilite .il { color: #ae81ff } /* Literal.Number.Integer.Long */\n\n\n",
+        "did": 300743725,
+        "flds": [
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Question",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Answer",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Guid",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 793009412,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1716487895,
+        "name": "Huda Review on Radiologic Physics model",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "<div class=\"card\"><div class=\"question\">{{Question}}</div><hr><div class=\"answer\">{{Answer}}</div></div>",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "<div class=\"card\"><div class=\"question\">{{Question}}</div></div>"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1451352297": {
+        "css": "/* override centered text which messes up code blocks*/\n.card {\n  text-align: left;\n}\n\n/* fix text color of codeblocks */\n.codehilite {\n  color: #000000;\n}\n\npre { line-height: 125%; }\ntd.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\nspan.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\ntd.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\nspan.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\n.codehilite .hll { background-color: #ffffcc }\n.codehilite { background: #f8f8f8; }\n.codehilite .c { color: #408080; font-style: italic } /* Comment */\n.codehilite .err { border: 1px solid #FF0000 } /* Error */\n.codehilite .k { color: #008000; font-weight: bold } /* Keyword */\n.codehilite .o { color: #666666 } /* Operator */\n.codehilite .ch { color: #408080; font-style: italic } /* Comment.Hashbang */\n.codehilite .cm { color: #408080; font-style: italic } /* Comment.Multiline */\n.codehilite .cp { color: #BC7A00 } /* Comment.Preproc */\n.codehilite .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */\n.codehilite .c1 { color: #408080; font-style: italic } /* Comment.Single */\n.codehilite .cs { color: #408080; font-style: italic } /* Comment.Special */\n.codehilite .gd { color: #A00000 } /* Generic.Deleted */\n.codehilite .ge { font-style: italic } /* Generic.Emph */\n.codehilite .gr { color: #FF0000 } /* Generic.Error */\n.codehilite .gh { color: #000080; font-weight: bold } /* Generic.Heading */\n.codehilite .gi { color: #00A000 } /* Generic.Inserted */\n.codehilite .go { color: #888888 } /* Generic.Output */\n.codehilite .gp { color: #000080; font-weight: bold } /* Generic.Prompt */\n.codehilite .gs { font-weight: bold } /* Generic.Strong */\n.codehilite .gu { color: #800080; font-weight: bold } /* Generic.Subheading */\n.codehilite .gt { color: #0044DD } /* Generic.Traceback */\n.codehilite .kc { color: #008000; font-weight: bold } /* Keyword.Constant */\n.codehilite .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */\n.codehilite .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */\n.codehilite .kp { color: #008000 } /* Keyword.Pseudo */\n.codehilite .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */\n.codehilite .kt { color: #B00040 } /* Keyword.Type */\n.codehilite .m { color: #666666 } /* Literal.Number */\n.codehilite .s { color: #BA2121 } /* Literal.String */\n.codehilite .na { color: #7D9029 } /* Name.Attribute */\n.codehilite .nb { color: #008000 } /* Name.Builtin */\n.codehilite .nc { color: #0000FF; font-weight: bold } /* Name.Class */\n.codehilite .no { color: #880000 } /* Name.Constant */\n.codehilite .nd { color: #AA22FF } /* Name.Decorator */\n.codehilite .ni { color: #999999; font-weight: bold } /* Name.Entity */\n.codehilite .ne { color: #D2413A; font-weight: bold } /* Name.Exception */\n.codehilite .nf { color: #0000FF } /* Name.Function */\n.codehilite .nl { color: #A0A000 } /* Name.Label */\n.codehilite .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */\n.codehilite .nt { color: #008000; font-weight: bold } /* Name.Tag */\n.codehilite .nv { color: #19177C } /* Name.Variable */\n.codehilite .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */\n.codehilite .w { color: #bbbbbb } /* Text.Whitespace */\n.codehilite .mb { color: #666666 } /* Literal.Number.Bin */\n.codehilite .mf { color: #666666 } /* Literal.Number.Float */\n.codehilite .mh { color: #666666 } /* Literal.Number.Hex */\n.codehilite .mi { color: #666666 } /* Literal.Number.Integer */\n.codehilite .mo { color: #666666 } /* Literal.Number.Oct */\n.codehilite .sa { color: #BA2121 } /* Literal.String.Affix */\n.codehilite .sb { color: #BA2121 } /* Literal.String.Backtick */\n.codehilite .sc { color: #BA2121 } /* Literal.String.Char */\n.codehilite .dl { color: #BA2121 } /* Literal.String.Delimiter */\n.codehilite .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */\n.codehilite .s2 { color: #BA2121 } /* Literal.String.Double */\n.codehilite .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */\n.codehilite .sh { color: #BA2121 } /* Literal.String.Heredoc */\n.codehilite .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */\n.codehilite .sx { color: #008000 } /* Literal.String.Other */\n.codehilite .sr { color: #BB6688 } /* Literal.String.Regex */\n.codehilite .s1 { color: #BA2121 } /* Literal.String.Single */\n.codehilite .ss { color: #19177C } /* Literal.String.Symbol */\n.codehilite .bp { color: #008000 } /* Name.Builtin.Pseudo */\n.codehilite .fm { color: #0000FF } /* Name.Function.Magic */\n.codehilite .vc { color: #19177C } /* Name.Variable.Class */\n.codehilite .vg { color: #19177C } /* Name.Variable.Global */\n.codehilite .vi { color: #19177C } /* Name.Variable.Instance */\n.codehilite .vm { color: #19177C } /* Name.Variable.Magic */\n.codehilite .il { color: #666666 } /* Literal.Number.Integer.Long */\n\npre { line-height: 125%; }\ntd.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\nspan.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }\ntd.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\nspan.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }\n.nightMode .codehilite .hll { background-color: #49483e }\n.nightMode .codehilite { background: #272822; color: #f8f8f2 }\n.nightMode .codehilite .c { color: #75715e } /* Comment */\n.nightMode .codehilite .err { color: #960050; background-color: #1e0010 } /* Error */\n.nightMode .codehilite .k { color: #66d9ef } /* Keyword */\n.nightMode .codehilite .l { color: #ae81ff } /* Literal */\n.nightMode .codehilite .n { color: #f8f8f2 } /* Name */\n.nightMode .codehilite .o { color: #f92672 } /* Operator */\n.nightMode .codehilite .p { color: #f8f8f2 } /* Punctuation */\n.nightMode .codehilite .ch { color: #75715e } /* Comment.Hashbang */\n.nightMode .codehilite .cm { color: #75715e } /* Comment.Multiline */\n.nightMode .codehilite .cp { color: #75715e } /* Comment.Preproc */\n.nightMode .codehilite .cpf { color: #75715e } /* Comment.PreprocFile */\n.nightMode .codehilite .c1 { color: #75715e } /* Comment.Single */\n.nightMode .codehilite .cs { color: #75715e } /* Comment.Special */\n.nightMode .codehilite .gd { color: #f92672 } /* Generic.Deleted */\n.nightMode .codehilite .ge { font-style: italic } /* Generic.Emph */\n.nightMode .codehilite .gi { color: #a6e22e } /* Generic.Inserted */\n.nightMode .codehilite .go { color: #66d9ef } /* Generic.Output */\n.nightMode .codehilite .gp { color: #f92672; font-weight: bold } /* Generic.Prompt */\n.nightMode .codehilite .gs { font-weight: bold } /* Generic.Strong */\n.nightMode .codehilite .gu { color: #75715e } /* Generic.Subheading */\n.nightMode .codehilite .kc { color: #66d9ef } /* Keyword.Constant */\n.nightMode .codehilite .kd { color: #66d9ef } /* Keyword.Declaration */\n.nightMode .codehilite .kn { color: #f92672 } /* Keyword.Namespace */\n.nightMode .codehilite .kp { color: #66d9ef } /* Keyword.Pseudo */\n.nightMode .codehilite .kr { color: #66d9ef } /* Keyword.Reserved */\n.nightMode .codehilite .kt { color: #66d9ef } /* Keyword.Type */\n.nightMode .codehilite .ld { color: #e6db74 } /* Literal.Date */\n.nightMode .codehilite .m { color: #ae81ff } /* Literal.Number */\n.nightMode .codehilite .s { color: #e6db74 } /* Literal.String */\n.nightMode .codehilite .na { color: #a6e22e } /* Name.Attribute */\n.nightMode .codehilite .nb { color: #f8f8f2 } /* Name.Builtin */\n.nightMode .codehilite .nc { color: #a6e22e } /* Name.Class */\n.nightMode .codehilite .no { color: #66d9ef } /* Name.Constant */\n.nightMode .codehilite .nd { color: #a6e22e } /* Name.Decorator */\n.nightMode .codehilite .ni { color: #f8f8f2 } /* Name.Entity */\n.nightMode .codehilite .ne { color: #a6e22e } /* Name.Exception */\n.nightMode .codehilite .nf { color: #a6e22e } /* Name.Function */\n.nightMode .codehilite .nl { color: #f8f8f2 } /* Name.Label */\n.nightMode .codehilite .nn { color: #f8f8f2 } /* Name.Namespace */\n.nightMode .codehilite .nx { color: #a6e22e } /* Name.Other */\n.nightMode .codehilite .py { color: #f8f8f2 } /* Name.Property */\n.nightMode .codehilite .nt { color: #f92672 } /* Name.Tag */\n.nightMode .codehilite .nv { color: #f8f8f2 } /* Name.Variable */\n.nightMode .codehilite .ow { color: #f92672 } /* Operator.Word */\n.nightMode .codehilite .w { color: #f8f8f2 } /* Text.Whitespace */\n.nightMode .codehilite .mb { color: #ae81ff } /* Literal.Number.Bin */\n.nightMode .codehilite .mf { color: #ae81ff } /* Literal.Number.Float */\n.nightMode .codehilite .mh { color: #ae81ff } /* Literal.Number.Hex */\n.nightMode .codehilite .mi { color: #ae81ff } /* Literal.Number.Integer */\n.nightMode .codehilite .mo { color: #ae81ff } /* Literal.Number.Oct */\n.nightMode .codehilite .sa { color: #e6db74 } /* Literal.String.Affix */\n.nightMode .codehilite .sb { color: #e6db74 } /* Literal.String.Backtick */\n.nightMode .codehilite .sc { color: #e6db74 } /* Literal.String.Char */\n.nightMode .codehilite .dl { color: #e6db74 } /* Literal.String.Delimiter */\n.nightMode .codehilite .sd { color: #e6db74 } /* Literal.String.Doc */\n.nightMode .codehilite .s2 { color: #e6db74 } /* Literal.String.Double */\n.nightMode .codehilite .se { color: #ae81ff } /* Literal.String.Escape */\n.nightMode .codehilite .sh { color: #e6db74 } /* Literal.String.Heredoc */\n.nightMode .codehilite .si { color: #e6db74 } /* Literal.String.Interpol */\n.nightMode .codehilite .sx { color: #e6db74 } /* Literal.String.Other */\n.nightMode .codehilite .sr { color: #e6db74 } /* Literal.String.Regex */\n.nightMode .codehilite .s1 { color: #e6db74 } /* Literal.String.Single */\n.nightMode .codehilite .ss { color: #e6db74 } /* Literal.String.Symbol */\n.nightMode .codehilite .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */\n.nightMode .codehilite .fm { color: #a6e22e } /* Name.Function.Magic */\n.nightMode .codehilite .vc { color: #f8f8f2 } /* Name.Variable.Class */\n.nightMode .codehilite .vg { color: #f8f8f2 } /* Name.Variable.Global */\n.nightMode .codehilite .vi { color: #f8f8f2 } /* Name.Variable.Instance */\n.nightMode .codehilite .vm { color: #f8f8f2 } /* Name.Variable.Magic */\n.nightMode .codehilite .il { color: #ae81ff } /* Literal.Number.Integer.Long */\n\n\n",
+        "did": 449083186,
+        "flds": [
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Question",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Answer",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Liberation Sans",
+                "media": [],
+                "name": "Guid",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1451352297,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1716558916,
+        "name": "Ford Primer on RO Physics model",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "<div class=\"card\"><div class=\"question\">{{Question}}</div><hr><div class=\"answer\">{{Answer}}</div></div>",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "<div class=\"card\"><div class=\"question\">{{Question}}</div></div>"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1487096632340": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}",
+        "did": 1494955811605,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Text",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Extra",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1487096632340,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1715100439,
+        "name": "Cloze+",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "Equipment"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{cloze:Text}}<br>\n{{Extra}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Cloze",
+                "ord": 0,
+                "qfmt": "{{cloze:Text}}"
+            }
+        ],
+        "type": 1,
+        "usn": 0,
+        "vers": []
+    },
+    "1487096632372": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1555966429337,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Front",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Back",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1487096632372,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1715100439,
+        "name": "Basic (and reversed card)+",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ],
+            [
+                1,
+                "any",
+                [
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "Book",
+            "Mormon",
+            "of"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 2",
+                "ord": 1,
+                "qfmt": "{{Back}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1487096632387": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1555966429337,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Front",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Back",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1487096632387,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1715100439,
+        "name": "Basic+",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [
+            "Book",
+            "Mormon",
+            "of"
+        ],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1489190921505": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1487096677209,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Document",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Title",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Details",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1489190921505,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1491524060,
+        "name": "Documents",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ],
+            [
+                1,
+                "any",
+                [
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Title}} <br><br>\nDetails: {{Details}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Document}} title:"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Document}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 2",
+                "ord": 1,
+                "qfmt": "{{Title}} document name/#:"
+            }
+        ],
+        "type": 0,
+        "usn": 0,
+        "vers": []
+    },
+    "1715100187061": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Front",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Back",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Reference",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1715100187061,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1716662348,
+        "name": "Basic",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0
+    },
+    "1715100187062": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Front",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Back",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1715100187062,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 0,
+        "name": "Basic (and reversed card)",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ],
+            [
+                1,
+                "any",
+                [
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 2",
+                "ord": 1,
+                "qfmt": "{{Back}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0
+    },
+    "1715100187063": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Front",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Back",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Add Reverse",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1715100187063,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 0,
+        "name": "Basic (optional reversed card)",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ],
+            [
+                1,
+                "all",
+                [
+                    1,
+                    2
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}"
+            },
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 2",
+                "ord": 1,
+                "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0
+    },
+    "1715100187064": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Front",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Back",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1715100187064,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 0,
+        "name": "Basic (type in the answer)",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0,
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{Front}}\n\n<hr id=answer>\n\n{{type:Back}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Front}}\n\n{{type:Back}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0
+    },
+    "1715100187065": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Text",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Back Extra",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1715100187065,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 0,
+        "name": "Cloze",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Cloze",
+                "ord": 0,
+                "qfmt": "{{cloze:Text}}"
+            }
+        ],
+        "type": 1,
+        "usn": 0
+    },
+    "1715100187066": {
+        "css": "#image-occlusion-canvas {\n    --inactive-shape-color: #ffeba2;\n    --active-shape-color: #ff8e8e;\n    --inactive-shape-border: 1px #212121;\n    --active-shape-border: 1px #212121;\n}\n\n.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Occlusion",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Image",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Header",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Back Extra",
+                "ord": 3,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Comments",
+                "ord": 4,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1715100187066,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1716472538,
+        "name": "Image Occlusion",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0,
+                    1,
+                    2
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{#Header}}<div>{{Header}}</div>{{/Header}}\n<div style=\"display: none\">{{cloze:Occlusion}}</div>\n<div id=\"err\"></div>\n<div id=\"image-occlusion-container\">\n    {{Image}}\n    <canvas id=\"image-occlusion-canvas\"></canvas>\n</div>\n<script>\ntry {\n    anki.imageOcclusion.setup();\n} catch (exc) {\n    document.getElementById(\"err\").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;\n}\n</script>\n\n<div><button id=\"toggle\">Toggle Masks</button></div>\n{{#Back Extra}}<div>{{Back Extra}}</div>{{/Back Extra}}\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Image Occlusion",
+                "ord": 0,
+                "qfmt": "{{#Header}}<div>{{Header}}</div>{{/Header}}\n<div style=\"display: none\">{{cloze:Occlusion}}</div>\n<div id=\"err\"></div>\n<div id=\"image-occlusion-container\">\n    {{Image}}\n    <canvas id=\"image-occlusion-canvas\"></canvas>\n</div>\n<script>\ntry {\n    anki.imageOcclusion.setup();\n} catch (exc) {\n    document.getElementById(\"err\").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;\n}\n</script>\n\n<div style='font-family: \"Arial\"; font-size: 20px;'>{{Header}}</div>\n"
+            }
+        ],
+        "type": 1,
+        "usn": 0
+    },
+    "1716152589377": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": 1716152890281,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "FrontText",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "FrontAudio",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "BackText",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "BackAudio",
+                "ord": 3,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Image",
+                "ord": 4,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Add Reverse",
+                "ord": 5,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1716152589377,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1716152890,
+        "name": "Basic Quizlet Extended",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0,
+                    1
+                ]
+            ],
+            [
+                1,
+                "all",
+                [
+                    5
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontText}}\n<hr id=answer>\n{{BackText}}\n<br><br>\n{{Image}}\n<br><br>\n{{BackAudio}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Normal",
+                "ord": 0,
+                "qfmt": "{{FrontText}}\n<br><br>\n{{FrontAudio}}"
+            },
+            {
+                "afmt": "{{BackText}}\n<hr id=answer>\n{{FrontText}}\n<br><br>\n{{FrontAudio}}\n{{Image}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Reverse",
+                "ord": 1,
+                "qfmt": "{{#Add Reverse}}{{BackText}}\n<br><br>\n{{BackAudio}}{{/Add Reverse}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0
+    },
+    "1716387391136": {
+        "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "ID (hidden)",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Header",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Image",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Question Mask",
+                "ord": 3,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Footer",
+                "ord": 4,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Remarks",
+                "ord": 5,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Sources",
+                "ord": 6,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Extra 1",
+                "ord": 7,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Extra 2",
+                "ord": 8,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Answer Mask",
+                "ord": 9,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Original Mask",
+                "ord": 10,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1716387391136,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1716387391,
+        "name": "Image Occlusion Enhanced",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    2
+                ]
+            ]
+        ],
+        "sortf": 1,
+        "tmpls": [
+            {
+                "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "IO Card",
+                "ord": 0,
+                "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n"
+            }
+        ],
+        "type": 0,
+        "usn": 0
+    }
+}

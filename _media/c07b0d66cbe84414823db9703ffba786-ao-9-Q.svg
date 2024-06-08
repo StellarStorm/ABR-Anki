@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect stroke="#2D2D2D" id="c07b0d66cbe84414823db9703ffba786-ao-1" height="52.77778" width="215.27777" y="45.83334" x="100.00001" fill="#00ff7f"/>
+  <rect id="c07b0d66cbe84414823db9703ffba786-ao-2" height="27.77778" width="77.77778" y="141.66667" x="138.88889" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#00ff7f"/>
+  <rect id="c07b0d66cbe84414823db9703ffba786-ao-3" height="62.5" width="198.61111" y="323.61111" x="5.55556" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#00ff7f"/>
+  <rect id="c07b0d66cbe84414823db9703ffba786-ao-4" height="26.38889" width="93.05556" y="343.05556" x="222.22222" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#00ff7f"/>
+  <rect id="c07b0d66cbe84414823db9703ffba786-ao-5" height="33.33333" width="200" y="368.05556" x="304.16667" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#00ff7f"/>
+  <rect id="c07b0d66cbe84414823db9703ffba786-ao-6" height="26.38889" width="88.88889" y="341.66667" x="493.05556" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#00ff7f"/>
+  <rect id="c07b0d66cbe84414823db9703ffba786-ao-7" height="43.05556" width="122.22222" y="138.88889" x="320.83333" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#00ff7f"/>
+  <rect id="c07b0d66cbe84414823db9703ffba786-ao-8" height="54.16667" width="225" y="123.61111" x="563.88889" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#00ff7f"/>
+  <rect id="c07b0d66cbe84414823db9703ffba786-ao-9" height="48.61111" width="106.94444" y="301.38889" x="654.16667" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>
