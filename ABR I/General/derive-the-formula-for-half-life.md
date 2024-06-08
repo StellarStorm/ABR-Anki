@@ -15,10 +15,10 @@ Physics
 
 ## Answer
 <section>
-<p>By definition, the elapsed time is the half-life when the activity is 1/2 the initial activity. So
+<p>By definition, the half life is the elapsed time when the number of remaining nuclei is 1/2 the initial count. So
 \[\begin{equation}
 \begin{split}
-A = 1/2 A_0 & = A_0 e^{-\lambda t} \\
+N = 1/2 N_0 & = N_0 e^{-\lambda t} \\
 1/2 & = e^{-\lambda t} \\
 \ln{1/2} & =-\lambda t \\
 \ln{1} - \ln{2} & =-\lambda t\\
