@@ -6,8 +6,9 @@ notetype: StuCo/Self Review model
 
 ### Tags
 ```
-Basic_physics
+Physics
 Compton
+Interactions::Photons
 ```
 
 ## Question

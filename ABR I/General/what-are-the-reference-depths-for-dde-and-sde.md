@@ -13,8 +13,7 @@ notetype: StuCo/Self Review model
 
 ## Answer
 <section>
-<p>DDE is measured at 1cm depth
-SDE is measured at 0.007cm depth</p>
+<p>DDE is measured at 1cm depth</p><p>SDE is measured at 0.007cm depth</p>
 
 </section>
 

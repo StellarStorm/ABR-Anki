@@ -6,7 +6,7 @@ notetype: Cloze
 
 ### Tags
 ```
-Basic_physics
+Physics
 ```
 
 ## Text
