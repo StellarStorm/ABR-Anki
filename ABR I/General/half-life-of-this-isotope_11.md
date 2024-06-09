@@ -1,31 +1,29 @@
 # Note
 ```
-guid: IcMDr]1C(0
+guid: sr1t4/?N)q
 notetype: Image Occlusion Enhanced
 ```
 
 ### Tags
 ```
-Basic_physics
-Therapy::Brachytherapy
 ```
 
 ## ID (hidden)
-958cf507c3a640deb1cce8927ae19327-ao-12
+0e33b38e8c2a45ebb535c14128f61076-ao-12
 
 ## Header
 Half-life of this isotope
 
 ## Image
-<img src="paste-d1570ad8baa37be006b902dc6db9146cf037ceae.png">
+<img src="tmpeky_3no3.png" />
 
 ## Question Mask
-<img src="958cf507c3a640deb1cce8927ae19327-ao-12-Q.svg" />
+<img src="0e33b38e8c2a45ebb535c14128f61076-ao-12-Q.svg" />
 
 ## Footer
 Recall that half-life is the time it takes for 1/2 the samples initially present to decay
-\[T_{1/2} = \frac{\ln 2}{\lambda}\]
 
+\[T_{1/2} = \frac{\ln 2}{\lambda}\]
 
 ## Remarks
 
@@ -40,7 +38,7 @@ Recall that half-life is the time it takes for 1/2 the samples initially present
 
 
 ## Answer Mask
-<img src="958cf507c3a640deb1cce8927ae19327-ao-12-A.svg">
+<img src="0e33b38e8c2a45ebb535c14128f61076-ao-12-A.svg">
 
 ## Original Mask
-<img src="958cf507c3a640deb1cce8927ae19327-ao-O.svg" />
+<img src="0e33b38e8c2a45ebb535c14128f61076-ao-O.svg" />
