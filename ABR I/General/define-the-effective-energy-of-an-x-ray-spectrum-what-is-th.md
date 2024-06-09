@@ -6,7 +6,7 @@ notetype: StuCo/Self Review model
 
 ### Tags
 ```
-Basic_physics
+Physics
 CT
 ```
 

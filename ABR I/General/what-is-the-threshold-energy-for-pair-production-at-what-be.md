@@ -6,6 +6,8 @@ notetype: StuCo/Self Review model
 
 ### Tags
 ```
+Interactions::Photons
+Physics
 ```
 
 ## Question
@@ -13,7 +15,8 @@ notetype: StuCo/Self Review model
 
 ## Answer
 <section>
-<p>Pair production requires the photon to have at least 1.022 MeV energy. However we don’t consider it in therapy until around a 10MV beam energy.</p>
+<p>Pair production requires the photon to have at least 1.022 MeV energy. However we don’t consider it in therapy until around a 10MV beam energy.</p><p>The special case of triplet production (an electron is the triggering particle, instead of a photon) requires 2.044 MeV.</p><p><img src="paste-253a2cc4af043496ef0adf290fa09844f701373c.png">
+</p>
 
 </section>
 

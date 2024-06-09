@@ -56,4 +56,4 @@ https://oncologymedicalphysics.com/introduction-to-clinical-linear-accelerators/
 <img src="390f220ac2fc4540af18465cbfb795c6-ao-1-A.svg" />
 
 ## Original Mask
-<img src="390f220ac2fc4540af18465cbfb795c6-ao-O.svg" />
+<img src="390f220ac2fc4540af18465cbfb795c6-ao-O.svg">

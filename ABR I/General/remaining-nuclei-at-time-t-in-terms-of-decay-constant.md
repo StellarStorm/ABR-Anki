@@ -6,7 +6,7 @@ notetype: Ford Primer on RO Physics model
 
 ### Tags
 ```
-Basic_physics
+Physics
 Decay
 Ford
 Physics

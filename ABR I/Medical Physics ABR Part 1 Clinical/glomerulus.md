@@ -16,7 +16,7 @@ Glomerulus
 
 ## BackText
 The working units of the kidney that filter the blood
-{Glo => Vampires glow <groan> => drink blood => kinda like filtering...yes a stretch}
+{Glo => Vampires glow <groan> => drink blood => kinda like filtering...yes a stretch}</groan>
 
 ## BackAudio
 

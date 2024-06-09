@@ -42,4 +42,4 @@ Xinru, probably https://www.abrphysicshelp.com/
 <img src="f5b674b64ec14353af71c2d8d0d5e1c0-ao-1-A.svg">
 
 ## Original Mask
-<img src="f5b674b64ec14353af71c2d8d0d5e1c0-ao-O.svg" />
+<img src="f5b674b64ec14353af71c2d8d0d5e1c0-ao-O.svg">

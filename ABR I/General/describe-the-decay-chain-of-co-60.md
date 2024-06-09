@@ -6,7 +6,7 @@ notetype: Basic
 
 ### Tags
 ```
-Basic_physics
+Physics
 Decay
 Therapy
 ```
