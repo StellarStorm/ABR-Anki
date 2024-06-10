@@ -11,12 +11,13 @@ Image_quality
 ```
 
 ## Question
-<h2>What type of CT artifact is this, and how can it be corrected?</h2>
+<h2>What type of CT artifact is this, and how can it be corrected?</h2><div><img alt="" src="57B41A97-AC4B-4A24-A05C-0AA7025EFCBD.png">
+</div>
 
 ## Answer
 <section>
-<p><img alt="" src="57B41A97-AC4B-4A24-A05C-0AA7025EFCBD.png"/></p>
-<p>This is <em>aliasing</em>, which occurs from insufficient sampling. We correct by increasing sampling, e.g. more views, more detectors, and/or z-flying focal spot.</p>
+<p>This is <em>aliasing</em>, which occurs from insufficient sampling. This can be recognized as fine stripes that appear to be radiating from the imaged object. We correct by increasing sampling, e.g. more views, more detectors, and/or z-flying focal spot.
+</p>
 
 
 </section>
