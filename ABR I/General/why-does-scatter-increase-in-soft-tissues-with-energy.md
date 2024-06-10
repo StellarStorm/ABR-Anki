@@ -15,7 +15,6 @@ Huda
 ## Answer
 <section>
 <p>Because the Compton effect contributes more. In soft tissue, photon energies >25keV actually produce more Compton scatter than photoelectric absorption.</p><p><img alt="Ionizing Radiation Interactions | Oncology Medical Physics" src="Photon-interactions.png">
-</p><p><img alt="Ionizing Radiation Interactions | Oncology Medical Physics" src="Photoelectric-resonance.jpg">
 </p>
 
 </section>

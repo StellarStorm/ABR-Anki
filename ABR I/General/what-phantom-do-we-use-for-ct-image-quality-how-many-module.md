@@ -13,12 +13,8 @@ notetype: StuCo/Self Review model
 
 ## Answer
 <section>
-<p>We use the ACR phantom. It has four modules:
-1. Positioning/alignment and CT number accuracy module
-2. Low contrast resolution module
-3. CT number uniformity module
-4. High contrast (spatial) resolution </p>
-<p><img alt="" src="4A51675F-CD37-444D-B67D-2CF3C4008AFD.png"/></p>
+<p>We use the ACR phantom. It has four modules:</p><p></p><ol><li>Positioning/alignment and CT number accuracy module</li><li>Low contrast resolution module</li><li>CT number uniformity module</li><li>High contrast (spatial) resolution </li></ol><p></p>
+<p><img alt="" src="4A51675F-CD37-444D-B67D-2CF3C4008AFD.png"></p>
 
 </section>
 

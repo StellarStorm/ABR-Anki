@@ -11,7 +11,7 @@ Huda
 ```
 
 ## Question
-<h2>Diameter for head and for body phantoms</h2>
+<h2>Diameter for head and for body CT phantoms</h2>
 
 ## Answer
 <section>

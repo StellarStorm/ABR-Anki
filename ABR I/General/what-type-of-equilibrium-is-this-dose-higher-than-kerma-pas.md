@@ -9,12 +9,13 @@ notetype: StuCo/Self Review model
 ```
 
 ## Question
-<h2>What type of equilibrium is this (dose higher than KERMA past \(d_{\text{max}}\))?</h2>
+<h2>What type of equilibrium is this (dose higher than KERMA past \(d_{\text{max}}\))?</h2><div><img alt="" src="2F330618-348C-4CD7-9476-78E5E7BBCFC3.png">
+</div>
 
 ## Answer
 <section>
-<p><img alt="" src="2F330618-348C-4CD7-9476-78E5E7BBCFC3.png"/></p>
-<p>This occurs for Transient Charged Particle Equilibrium (TCPE).</p>
+<p>This occurs for Transient Charged Particle Equilibrium (TCPE).
+</p>
 
 </section>
 

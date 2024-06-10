@@ -9,7 +9,7 @@ notetype: StuCo/Self Review model
 ```
 
 ## Question
-<h2>What dose Noise Power Spectrum describe?</h2>
+<h2>What doe Noise Power Spectrum describe?</h2>
 
 ## Answer
 <section>

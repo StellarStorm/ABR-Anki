@@ -6,15 +6,17 @@ notetype: StuCo/Self Review model
 
 ### Tags
 ```
+Imaging::CT
 ```
 
 ## Question
-<h2>What type of artifact is this? What causes it?</h2>
+<h2>What type of artifact is this? What causes it?</h2><div><img alt="" src="63628067-9F11-46A3-96C7-CAD26F8F5A68.png">
+</div>
 
 ## Answer
 <section>
-<p><img alt="" src="63628067-9F11-46A3-96C7-CAD26F8F5A68.png"/></p>
-<p>This is a truncation artifact that occurs when part of the imaged artifact is outside the scanning FOV.</p>
+<p>This is a truncation artifact that occurs when part of the imaged object is outside the scanning FOV.
+</p>
 
 </section>
 

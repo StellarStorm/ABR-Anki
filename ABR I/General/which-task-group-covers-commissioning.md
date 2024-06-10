@@ -6,6 +6,7 @@ notetype: StuCo/Self Review model
 
 ### Tags
 ```
+Reports::TGs
 ```
 
 ## Question
